@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/2649/1.0"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/2649/1.0">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_2649"
+            type="tns:Doc_2649_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>Bevallás a 2026. évben kötelezetté váló adózók innovációs járulékelőlegéről</documentation>
+      </annotation>
+   </element>
+   <simpleType name="Enum_2649_0A0001D002A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0101"/>
+         <enumeration value="0102"/>
+         <enumeration value="0103"/>
+         <enumeration value="0104"/>
+         <enumeration value="0105"/>
+         <enumeration value="0106"/>
+         <enumeration value="0107"/>
+         <enumeration value="0108"/>
+         <enumeration value="0109"/>
+         <enumeration value="0110"/>
+         <enumeration value="0111"/>
+         <enumeration value="0112"/>
+         <enumeration value="0113"/>
+         <enumeration value="0114"/>
+         <enumeration value="0115"/>
+         <enumeration value="0116"/>
+         <enumeration value="0117"/>
+         <enumeration value="0118"/>
+         <enumeration value="0119"/>
+         <enumeration value="0120"/>
+         <enumeration value="0121"/>
+         <enumeration value="0122"/>
+         <enumeration value="0123"/>
+         <enumeration value="0124"/>
+         <enumeration value="0125"/>
+         <enumeration value="0126"/>
+         <enumeration value="0127"/>
+         <enumeration value="0128"/>
+         <enumeration value="0129"/>
+         <enumeration value="0130"/>
+         <enumeration value="0131"/>
+         <enumeration value="0201"/>
+         <enumeration value="0202"/>
+         <enumeration value="0203"/>
+         <enumeration value="0204"/>
+         <enumeration value="0205"/>
+         <enumeration value="0206"/>
+         <enumeration value="0207"/>
+         <enumeration value="0208"/>
+         <enumeration value="0209"/>
+         <enumeration value="0210"/>
+         <enumeration value="0211"/>
+         <enumeration value="0212"/>
+         <enumeration value="0213"/>
+         <enumeration value="0214"/>
+         <enumeration value="0215"/>
+         <enumeration value="0216"/>
+         <enumeration value="0217"/>
+         <enumeration value="0218"/>
+         <enumeration value="0219"/>
+         <enumeration value="0220"/>
+         <enumeration value="0221"/>
+         <enumeration value="0222"/>
+         <enumeration value="0223"/>
+         <enumeration value="0224"/>
+         <enumeration value="0225"/>
+         <enumeration value="0226"/>
+         <enumeration value="0227"/>
+         <enumeration value="0228"/>
+         <enumeration value="0229"/>
+         <enumeration value="0301"/>
+         <enumeration value="0302"/>
+         <enumeration value="0303"/>
+         <enumeration value="0304"/>
+         <enumeration value="0305"/>
+         <enumeration value="0306"/>
+         <enumeration value="0307"/>
+         <enumeration value="0308"/>
+         <enumeration value="0309"/>
+         <enumeration value="0310"/>
+         <enumeration value="0311"/>
+         <enumeration value="0312"/>
+         <enumeration value="0313"/>
+         <enumeration value="0314"/>
+         <enumeration value="0315"/>
+         <enumeration value="0316"/>
+         <enumeration value="0317"/>
+         <enumeration value="0318"/>
+         <enumeration value="0319"/>
+         <enumeration value="0320"/>
+         <enumeration value="0321"/>
+         <enumeration value="0322"/>
+         <enumeration value="0323"/>
+         <enumeration value="0324"/>
+         <enumeration value="0325"/>
+         <enumeration value="0326"/>
+         <enumeration value="0327"/>
+         <enumeration value="0328"/>
+         <enumeration value="0329"/>
+         <enumeration value="0330"/>
+         <enumeration value="0331"/>
+         <enumeration value="0401"/>
+         <enumeration value="0402"/>
+         <enumeration value="0403"/>
+         <enumeration value="0404"/>
+         <enumeration value="0405"/>
+         <enumeration value="0406"/>
+         <enumeration value="0407"/>
+         <enumeration value="0408"/>
+         <enumeration value="0409"/>
+         <enumeration value="0410"/>
+         <enumeration value="0411"/>
+         <enumeration value="0412"/>
+         <enumeration value="0413"/>
+         <enumeration value="0414"/>
+         <enumeration value="0415"/>
+         <enumeration value="0416"/>
+         <enumeration value="0417"/>
+         <enumeration value="0418"/>
+         <enumeration value="0419"/>
+         <enumeration value="0420"/>
+         <enumeration value="0421"/>
+         <enumeration value="0422"/>
+         <enumeration value="0423"/>
+         <enumeration value="0424"/>
+         <enumeration value="0425"/>
+         <enumeration value="0426"/>
+         <enumeration value="0427"/>
+         <enumeration value="0428"/>
+         <enumeration value="0429"/>
+         <enumeration value="0430"/>
+         <enumeration value="0501"/>
+         <enumeration value="0502"/>
+         <enumeration value="0503"/>
+         <enumeration value="0504"/>
+         <enumeration value="0505"/>
+         <enumeration value="0506"/>
+         <enumeration value="0507"/>
+         <enumeration value="0508"/>
+         <enumeration value="0509"/>
+         <enumeration value="0510"/>
+         <enumeration value="0511"/>
+         <enumeration value="0512"/>
+         <enumeration value="0513"/>
+         <enumeration value="0514"/>
+         <enumeration value="0515"/>
+         <enumeration value="0516"/>
+         <enumeration value="0517"/>
+         <enumeration value="0518"/>
+         <enumeration value="0519"/>
+         <enumeration value="0520"/>
+         <enumeration value="0521"/>
+         <enumeration value="0522"/>
+         <enumeration value="0523"/>
+         <enumeration value="0524"/>
+         <enumeration value="0525"/>
+         <enumeration value="0526"/>
+         <enumeration value="0527"/>
+         <enumeration value="0528"/>
+         <enumeration value="0529"/>
+         <enumeration value="0530"/>
+         <enumeration value="0531"/>
+         <enumeration value="0601"/>
+         <enumeration value="0602"/>
+         <enumeration value="0603"/>
+         <enumeration value="0604"/>
+         <enumeration value="0605"/>
+         <enumeration value="0606"/>
+         <enumeration value="0607"/>
+         <enumeration value="0608"/>
+         <enumeration value="0609"/>
+         <enumeration value="0610"/>
+         <enumeration value="0611"/>
+         <enumeration value="0612"/>
+         <enumeration value="0613"/>
+         <enumeration value="0614"/>
+         <enumeration value="0615"/>
+         <enumeration value="0616"/>
+         <enumeration value="0617"/>
+         <enumeration value="0618"/>
+         <enumeration value="0619"/>
+         <enumeration value="0620"/>
+         <enumeration value="0621"/>
+         <enumeration value="0622"/>
+         <enumeration value="0623"/>
+         <enumeration value="0624"/>
+         <enumeration value="0625"/>
+         <enumeration value="0626"/>
+         <enumeration value="0627"/>
+         <enumeration value="0628"/>
+         <enumeration value="0629"/>
+         <enumeration value="0630"/>
+         <enumeration value="0701"/>
+         <enumeration value="0702"/>
+         <enumeration value="0703"/>
+         <enumeration value="0704"/>
+         <enumeration value="0705"/>
+         <enumeration value="0706"/>
+         <enumeration value="0707"/>
+         <enumeration value="0708"/>
+         <enumeration value="0709"/>
+         <enumeration value="0710"/>
+         <enumeration value="0711"/>
+         <enumeration value="0712"/>
+         <enumeration value="0713"/>
+         <enumeration value="0714"/>
+         <enumeration value="0715"/>
+         <enumeration value="0716"/>
+         <enumeration value="0717"/>
+         <enumeration value="0718"/>
+         <enumeration value="0719"/>
+         <enumeration value="0720"/>
+         <enumeration value="0721"/>
+         <enumeration value="0722"/>
+         <enumeration value="0723"/>
+         <enumeration value="0724"/>
+         <enumeration value="0725"/>
+         <enumeration value="0726"/>
+         <enumeration value="0727"/>
+         <enumeration value="0728"/>
+         <enumeration value="0729"/>
+         <enumeration value="0730"/>
+         <enumeration value="0731"/>
+         <enumeration value="0801"/>
+         <enumeration value="0802"/>
+         <enumeration value="0803"/>
+         <enumeration value="0804"/>
+         <enumeration value="0805"/>
+         <enumeration value="0806"/>
+         <enumeration value="0807"/>
+         <enumeration value="0808"/>
+         <enumeration value="0809"/>
+         <enumeration value="0810"/>
+         <enumeration value="0811"/>
+         <enumeration value="0812"/>
+         <enumeration value="0813"/>
+         <enumeration value="0814"/>
+         <enumeration value="0815"/>
+         <enumeration value="0816"/>
+         <enumeration value="0817"/>
+         <enumeration value="0818"/>
+         <enumeration value="0819"/>
+         <enumeration value="0820"/>
+         <enumeration value="0821"/>
+         <enumeration value="0822"/>
+         <enumeration value="0823"/>
+         <enumeration value="0824"/>
+         <enumeration value="0825"/>
+         <enumeration value="0826"/>
+         <enumeration value="0827"/>
+         <enumeration value="0828"/>
+         <enumeration value="0829"/>
+         <enumeration value="0830"/>
+         <enumeration value="0831"/>
+         <enumeration value="0901"/>
+         <enumeration value="0902"/>
+         <enumeration value="0903"/>
+         <enumeration value="0904"/>
+         <enumeration value="0905"/>
+         <enumeration value="0906"/>
+         <enumeration value="0907"/>
+         <enumeration value="0908"/>
+         <enumeration value="0909"/>
+         <enumeration value="0910"/>
+         <enumeration value="0911"/>
+         <enumeration value="0912"/>
+         <enumeration value="0913"/>
+         <enumeration value="0914"/>
+         <enumeration value="0915"/>
+         <enumeration value="0916"/>
+         <enumeration value="0917"/>
+         <enumeration value="0918"/>
+         <enumeration value="0919"/>
+         <enumeration value="0920"/>
+         <enumeration value="0921"/>
+         <enumeration value="0922"/>
+         <enumeration value="0923"/>
+         <enumeration value="0924"/>
+         <enumeration value="0925"/>
+         <enumeration value="0926"/>
+         <enumeration value="0927"/>
+         <enumeration value="0928"/>
+         <enumeration value="0929"/>
+         <enumeration value="0930"/>
+         <enumeration value="1001"/>
+         <enumeration value="1002"/>
+         <enumeration value="1003"/>
+         <enumeration value="1004"/>
+         <enumeration value="1005"/>
+         <enumeration value="1006"/>
+         <enumeration value="1007"/>
+         <enumeration value="1008"/>
+         <enumeration value="1009"/>
+         <enumeration value="1010"/>
+         <enumeration value="1011"/>
+         <enumeration value="1012"/>
+         <enumeration value="1013"/>
+         <enumeration value="1014"/>
+         <enumeration value="1015"/>
+         <enumeration value="1016"/>
+         <enumeration value="1017"/>
+         <enumeration value="1018"/>
+         <enumeration value="1019"/>
+         <enumeration value="1020"/>
+         <enumeration value="1021"/>
+         <enumeration value="1022"/>
+         <enumeration value="1023"/>
+         <enumeration value="1024"/>
+         <enumeration value="1025"/>
+         <enumeration value="1026"/>
+         <enumeration value="1027"/>
+         <enumeration value="1028"/>
+         <enumeration value="1029"/>
+         <enumeration value="1030"/>
+         <enumeration value="1031"/>
+         <enumeration value="1101"/>
+         <enumeration value="1102"/>
+         <enumeration value="1103"/>
+         <enumeration value="1104"/>
+         <enumeration value="1105"/>
+         <enumeration value="1106"/>
+         <enumeration value="1107"/>
+         <enumeration value="1108"/>
+         <enumeration value="1109"/>
+         <enumeration value="1110"/>
+         <enumeration value="1111"/>
+         <enumeration value="1112"/>
+         <enumeration value="1113"/>
+         <enumeration value="1114"/>
+         <enumeration value="1115"/>
+         <enumeration value="1116"/>
+         <enumeration value="1117"/>
+         <enumeration value="1118"/>
+         <enumeration value="1119"/>
+         <enumeration value="1120"/>
+         <enumeration value="1121"/>
+         <enumeration value="1122"/>
+         <enumeration value="1123"/>
+         <enumeration value="1124"/>
+         <enumeration value="1125"/>
+         <enumeration value="1126"/>
+         <enumeration value="1127"/>
+         <enumeration value="1128"/>
+         <enumeration value="1129"/>
+         <enumeration value="1130"/>
+         <enumeration value="1201"/>
+         <enumeration value="1202"/>
+         <enumeration value="1203"/>
+         <enumeration value="1204"/>
+         <enumeration value="1205"/>
+         <enumeration value="1206"/>
+         <enumeration value="1207"/>
+         <enumeration value="1208"/>
+         <enumeration value="1209"/>
+         <enumeration value="1210"/>
+         <enumeration value="1211"/>
+         <enumeration value="1212"/>
+         <enumeration value="1213"/>
+         <enumeration value="1214"/>
+         <enumeration value="1215"/>
+         <enumeration value="1216"/>
+         <enumeration value="1217"/>
+         <enumeration value="1218"/>
+         <enumeration value="1219"/>
+         <enumeration value="1220"/>
+         <enumeration value="1221"/>
+         <enumeration value="1222"/>
+         <enumeration value="1223"/>
+         <enumeration value="1224"/>
+         <enumeration value="1225"/>
+         <enumeration value="1226"/>
+         <enumeration value="1227"/>
+         <enumeration value="1228"/>
+         <enumeration value="1229"/>
+         <enumeration value="1230"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_2649_0A0001D001A">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+      </restriction>
+   </simpleType>
+   <complexType name="Doc_2649_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_2649"
+                  type="tns:Form_2649_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>2649 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Form_2649_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány 2649 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120001"
+                  type="tns:Block_2649_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120008"
+                  type="tns:Block_2649_120008_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>[01] ELŐLEG az első két negyedév vonatkozásában</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120011"
+                  type="tns:Block_2649_120011_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>[02] ELŐLEG az előremutató 12 hónap vonatkozásában</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_2649_120001_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_2649_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Adózó adatai</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120003"
+                  type="tns:FieldGroup_2649_120003_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Ügyintéző adatai</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120006"
+                  type="tns:FieldGroup_2649_120006_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Bevallás jellemzői</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_2649_120008_Type">
+      <annotation>
+         <documentation>[01] ELŐLEG az első két negyedév vonatkozásában</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120009"
+                  type="tns:FieldGroup_2649_120009_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(A) Járulékelőleg-kötelezettség meghatározása</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120010"
+                  type="tns:FieldGroup_2649_120010_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(B) Járulékelőleg-kötelezettség bevallása</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_2649_120011_Type">
+      <annotation>
+         <documentation>[02] ELŐLEG az előremutató 12 hónap vonatkozásában</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120012"
+                  type="tns:FieldGroup_2649_120012_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(A) Járulékelőleg-kötelezettség meghatározása</documentation>
+            </annotation>
+         </element>
+         <element name="FieldGroup_120013"
+                  type="tns:FieldGroup_2649_120013_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(B) Járulékelőleg-kötelezettség bevallása</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120002_Type">
+      <annotation>
+         <documentation>Adózó adatai</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001C001A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószáma (adoszam)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="11"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001C003A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adózó neve (adozo_neve)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="80"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120003_Type">
+      <annotation>
+         <documentation>Ügyintéző adatai</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001C004A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Neve (ugyinev)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="80"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001C005A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telefonszáma (ugyitel)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="40"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120006_Type">
+      <annotation>
+         <documentation>Bevallás jellemzői</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001D001A"
+                  minOccurs="0"
+                  type="tns:Enum_2649_0A0001D001A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bevallás kódja (bevkod)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D002A"
+                  minOccurs="0"
+                  type="tns:Enum_2649_0A0001D002A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Eltérő üzleti év mérlegforduló napja (merlegfordulo)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D003A"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bevallási időszak ¦ Kezdete (bevtol)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D004A"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bevallási időszak ¦ Vége (bevig)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001D005A"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jelölje, ha beszámolóját IFRS-ek szerint állítja össze (IFRS_szerint)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001C002A"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Javítani kívánt hibás bevallás adata ¦ Hibásnak minősített bevallás vonalkódja (vonalkod)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120009_Type">
+      <annotation>
+         <documentation>(A) Járulékelőleg-kötelezettség meghatározása</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0B0001C0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>01. A járulék várható alapja 2026. év alapján [Htv. 39.§ (1)] ([01]A1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001C0002AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>02. A járulék várható éves összege 2026. év alapján [Inno. Tv. 16. § (2)] ([01]A2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120010_Type">
+      <annotation>
+         <documentation>(B) Járulékelőleg-kötelezettség bevallása</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0B0001D0003AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>03. A járulék várható éves összege/előlegkötelezettség összege ([01]A3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0004AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. január ([01]A4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0005AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. február ([01]A5)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0006AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. március ([01]A6)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0007AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. április ([01]A7)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0008AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. május ([01]A8)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0009AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. június ([01]A9)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0010AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. július ([01]A10)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0011AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. augusztus ([01]A11)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0012AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. szeptember ([01]A12)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0013AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. október ([01]A13)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0014AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. november ([01]A14)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0015AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. december ([01]A15)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0016AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. január ([01]A16)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0017AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. február ([01]A17)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0018AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. március ([01]A18)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0019AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. április ([01]A19)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0020AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. május ([01]A20)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0B0001D0021AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. június ([01]A21)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120012_Type">
+      <annotation>
+         <documentation>(A) Járulékelőleg-kötelezettség meghatározása</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0C0001C0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>01. A járulék alapja 2025. év alapján [Htv. 39.§ (1)] ([02]A1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001C0002AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>02. A járulék éves összege 2025. év alapján [Inno. tv. 16. § (2)] ([02]A2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_2649_120013_Type">
+      <annotation>
+         <documentation>(B) Járulékelőleg-kötelezettség bevallása</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0C0001D0003AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>03. A járulék éves összege/előlegkötelezettség összege ([02]A3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0004AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. szeptember ([02]A4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0005AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. október ([02]A5)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0006AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. november ([02]A6)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0007AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2026. évi előleggel érintett hónapok ¦ 2026. december ([02]A7)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0008AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. január ([02]A8)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0009AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. február ([02]A9)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0010AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. március ([02]A10)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0011AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. április ([02]A11)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0012AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. május ([02]A12)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0013AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. június ([02]A13)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0014AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. július ([02]A14)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0015AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. augusztus ([02]A15)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0016AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. szeptember ([02]A16)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0017AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. október ([02]A17)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0018AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. november ([02]A18)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0019AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2027. évi előleggel érintett hónapok ¦ 2027. december ([02]A19)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0020AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. január ([02]A20)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0021AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. február ([02]A21)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0022AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. március ([02]A22)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0023AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. április ([02]A23)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0024AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. május ([02]A24)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0C0001D0025AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Az előlegfizetési időszakokra eső részösszegek ¦ 2028. évi előleggel érintett hónapok ¦ 2028. június ([02]A25)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="16"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
